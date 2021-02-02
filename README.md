@@ -1,12 +1,17 @@
-#Training data selection for Social Media NER
+# Training data selection for Social Media NER
 
 ## Environment 
-pytorch==1.7.1
-seqeval==0.0.12
+pytorch==1.7.1  \
+seqeval==0.0.12  \
+
+## Datasets
+[Twitter and Broad Twitter](https://github.com/jiachenwestlake/Multi-Cell_LSTM) \
+[WNUT-2016 and WNUT-2017](https://github.com/cuhksz-nlp/SANER) \
+[OntoNotes5.0](https://github.com/yhcc/OntoNotes-5.0-NER) \
 
 ## Obtain the glove and bert embedding for a dataset
 ### For glove, run
-python data_selection/read_glove_vector
+python data_selection/read_glove_vector.py
 ### For bert, run
 sh run_obtain_sent_repre.sh
 
