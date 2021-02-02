@@ -23,9 +23,9 @@ python data_selection/generate_vector_base_idx.py
 
 ## for NER training with TDS
 ### Run four shell files to get the sota results reported in paper, and you can change the --train_data_dir to select different proporthion source data.
-sh run_TDS_btw.sh
-sh run_TDS_twitter.sh
-sh run_TDS_w16.sh
+sh run_TDS_btw.sh  \
+sh run_TDS_twitter.sh  \
+sh run_TDS_w16.sh  \
 sh run_TDS_w17.sh
 
 ## The parameters need to change
